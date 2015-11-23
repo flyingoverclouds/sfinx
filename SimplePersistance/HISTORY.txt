@@ -1,0 +1,67 @@
+23/09/2004 : v0.6.4
+	NC : replacement de la classe abstraite DBHelper par une interface IDBHelper et correction
+		des classes SQLDBHelper et OLEDBHelper
+	NC : ajout d'un methode ClearCache() pour purger le cache des infos de persistances
+	NC : correction bug sur Delete
+
+07/05/2004 : v0.6.3
+	NC : ajouts d'un AppSettings pour PersistDAL.TypeInfoCacheEnable
+	NC : correction de Update/Insert/Delete pour accepter les IENumerable directement (DataSource)
+	
+
+17/04/2004 : v0.6.2
+	NC : remplacement des exception générique par des exceptions PersistException heritant de ApplicationException
+	NC : mise en place d'un cache optionnel pour les infos de persistance (par défaut non activé)
+	NC : optimisation sur la récupération des informations de Type.
+	NC : la méthode PersistDAL.ReadMultiple est marqué obsolète en prévision de la réécriture du code de requetage des objets
+	NC : Implémentation basique d'un fournisseur de chaine de connexion (IConnectionStringProvider)
+	NC : correction bug dans SQLDBHelper : la transaction restait instanciée meme apres un commit/rollback
+	NC : correction bug dans OLEDBHelper : la transaction restait instanciée meme apres un commit/rollback
+	NC : correction bug : fermerture explicite de la connexion ADO.NET apres un appel a une méthode statique READ/UPDATE/DELETE/INSERT
+	NC : BENCH : sur 50 enreg, traité 50 fois : soit 50insert, 50*50couple read/update et 50 delete :
+		moyenne sur 5 executé du bench : Sans cache = 11387ms (4.38ms/op), Avec le cache = 8825ms (3.40ms/op)
+		soit un gain de 23% !!!
+	NC : modification du versionning : version paire=release; version impaire=en cours de dev
+		
+
+21/03/2004 : v0.6.1
+	NC : remplacement des parametres de type object[] par IEnumerable (Insert/Update/Delete)
+	NC : generation d'une exception si un champ est déclare Nullable mais si le champs ISNULL correspondant est absent.
+	NC : AppSettings "PersistDAL.DBHelper" dans le .config pour déclarer le DBHelper a utilisé pour l'application. 
+	
+
+13/03/2004 : v0.6
+	NC : support des NULL sous la forme d'un champ booleen associé au champ de données.
+	NC : support des requetes avec génération SQL dynamique sécurisé (paramétrée)
+	NC : dbhelpercontext pour utilisation des bases via OLEDB (test ok avec Access)
+	NC : necessité de préciser le DBHelper a utilisé sinon exception
+	NC : remise plat du nommage : le namespace s'appelle SableFin.SfinX.SimplePersistance
+
+18/02/2004 : V0.5.1
+	NC : supporte les identity sur des données autres que Int32. Necessaite les SP créées par StoredProcCreator 0.5.1
+	
+18/01/2004 : v0.5
+	NC : attribut [Relation1N()] supporté en lecture. Permet l'imbrication
+		 d'objet persistable.
+	NC : ajout d'une propriété SessionVariable permettant de récupérer la chaine de connexion dans une variable de session.
+
+14/01/2004 : v0.4.1
+	NC : support des propriété en tant que clé primaire dans ReadMultiple
+	NC : optimisation de ReadMultiple
+	NC : quelque correction et réécriture de code
+
+02/01/2003 : v0.4
+	NC : ajout d'une methode static pour la lecture multiple d'object persistable
+		 support du TOP, ORDER BY, GROUP BY
+
+17/12/2003 : v0.3
+	NC : support des champs Identity
+	NC : reecriture de portions de code
+	NC : mise à jour de la licence
+	NC : ajout d'un fichier de cle pour générer un nom fort
+
+1/12/2003
+	NC : Release test 
+	
+09/2003
+	NC : Release proto 
