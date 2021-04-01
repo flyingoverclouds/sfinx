@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebControl", "WebControl.csproj", "{23F9425C-9425-4ED5-909D-F86D9D92A936}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{23F9425C-9425-4ED5-909D-F86D9D92A936}.Debug.ActiveCfg = Debug|.NET
+		{23F9425C-9425-4ED5-909D-F86D9D92A936}.Debug.Build.0 = Debug|.NET
+		{23F9425C-9425-4ED5-909D-F86D9D92A936}.Release.ActiveCfg = Release|.NET
+		{23F9425C-9425-4ED5-909D-F86D9D92A936}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

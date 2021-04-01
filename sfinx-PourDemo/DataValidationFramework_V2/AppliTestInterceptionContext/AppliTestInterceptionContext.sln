@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppliTestInterceptionContext", "AppliTestInterceptionContext.csproj", "{D7E7A250-E133-4155-A385-97E89EFF14E8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D7E7A250-E133-4155-A385-97E89EFF14E8}.Debug.ActiveCfg = Debug|.NET
+		{D7E7A250-E133-4155-A385-97E89EFF14E8}.Debug.Build.0 = Debug|.NET
+		{D7E7A250-E133-4155-A385-97E89EFF14E8}.Release.ActiveCfg = Release|.NET
+		{D7E7A250-E133-4155-A385-97E89EFF14E8}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

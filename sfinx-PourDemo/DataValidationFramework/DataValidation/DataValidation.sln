@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataValidation", "DataValidation.csproj", "{B281C74F-C299-4FB6-9B3B-8AC9ABF65146}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B281C74F-C299-4FB6-9B3B-8AC9ABF65146}.Debug.ActiveCfg = Debug|.NET
+		{B281C74F-C299-4FB6-9B3B-8AC9ABF65146}.Debug.Build.0 = Debug|.NET
+		{B281C74F-C299-4FB6-9B3B-8AC9ABF65146}.Release.ActiveCfg = Release|.NET
+		{B281C74F-C299-4FB6-9B3B-8AC9ABF65146}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

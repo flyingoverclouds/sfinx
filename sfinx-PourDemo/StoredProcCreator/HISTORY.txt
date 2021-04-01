@@ -1,0 +1,37 @@
+20/03/2004 : v0.6.1
+	NC : correction bug ancien namesapce dans génération code de la classe
+
+13/03/2004 : v0.6
+	NC : possibilité de choisir l'attribut ProcedureStockée ou SQLDynamique dans la génération de code
+	NC : génération du code de gestion du NULL et initialisation du ISNULL a true.
+
+18/02/2004 : v0.5.1
+	NC : genere des proc stock qui support les identity sur des colonne autres que int
+	
+15/02/2004 : v0.5 
+	NC : ajout d'un mode de test (activé par défaut). Quand il est activé, la base de données
+		 n'est pas modifié. Permet de vérifier le code SQL généré sans modifier la base.
+	NC : genere le parametre TableName pour l'attribut [PersistStoredProc]
+	NC : possibilité de préciser le prefixe à utiliser pour les procédures stockées
+	NC : correction : le treeview de détail est maintenant réinitialisé lors d'une reconnexion.
+
+14/01/2004 : v0.4.1
+	NC : correction gestion param de SP si PK de type decimal ou numeric (merci JMG)
+
+21/12/2003
+	NC : gestion conversion type sql/dotnet propriété et champ dans la génération des classes
+	NC : support type identity dans la génération des classes
+	NC : support primary key dans la génération des classes
+
+17/12/2003 : Release Cross-Systems France v0.3
+	NC : support des champs Identity dans les procédure stockées généré
+	NC : support XP Themes
+
+5/12/2003
+	JMG : saisie du nom de la base de données
+	
+1/12/2003 : Release pour Cross-Systems France
+	NC : 
+	
+09/2003 : Release pour CICR - Cross-Systems Suisse 
+	NC : 

@@ -1,0 +1,32 @@
+SFINx Framework : (c) Nicolas CLERC 2003 
+Pour plus d'informations : sfinx@sablefin.net
+
+Ce code est fournit en l'état, pour une libre utilisation sous les 
+conditions suivantes :
+
+- N. CLERC( ci-apres nommé sous le titre 'L'auteur' ) livre les sources en 
+  l'état. Il ne fournit aucune garantie quand au bon fonctionnement des codes 
+  sources livrés.
+- L'auteur  conserve l'intégralité des droits d'auteurs sur le code source
+  livré à l'utilisateur et se réserve le droit de modifier les termes de la
+  présente licence pour de futures versions du code sources.
+- L'utilisateur assume seul les eventuels problèmes ( matériels, logiciels
+  ,financier, ... ) résultant d'une utilisation de ce code source.
+- L'utilisateur est libre d'utiliser ce code source dans ces applications. 
+  Dans ce cas, la presente licence doit etre intégré dans le code source de 
+  l'application et l'utilisation du framework doit etre mentionné dans la 
+  documentation de l'application "Portion Code (c) Nicolas CLERC 2003 - SableFin.NET".
+- En cas de modification du code source, l'utilisateur s'engage a fournir 
+  les sources modifiées à l'auteur en vue d'une eventuelle intégration dans 
+  le code source d'origine en respectant la présente license ( ajout de 
+  fonctionnalité,  correction d'erreurs, ... ). Dans ce cas l'auteur s'engage 
+  à mentionner la collaboration de l'utilisateur dans la documentation du 
+  code source impacté.
+- Le présent fichier ne doit pas être supprimé et doit systématiquement 
+  accompagner toutes applications ( code source ou executable, déployée ou 
+  non) utilisant ce code source.
+	
+	
+Pour plus d'informations : sfinx@sablefin.net
+http://sablefin.net/sfinx
+

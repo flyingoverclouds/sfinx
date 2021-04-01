@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePersistanceTest", "SimplePersistanceTest\SimplePersistanceTest.csproj", "{FD1035B1-E0CA-4685-BA2D-EC698FB9DCC1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePersistance", "SimplePersistance\SimplePersistance.csproj", "{0F98A671-1A60-446B-8C36-361F5D84248D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoredProcCreator", "StoredProcCreator\StoredProcCreator.csproj", "{AAC5DA43-8EFE-41A7-93C8-49247AD35A7A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FD1035B1-E0CA-4685-BA2D-EC698FB9DCC1}.Debug.ActiveCfg = Debug|.NET
+		{FD1035B1-E0CA-4685-BA2D-EC698FB9DCC1}.Debug.Build.0 = Debug|.NET
+		{FD1035B1-E0CA-4685-BA2D-EC698FB9DCC1}.Release.ActiveCfg = Release|.NET
+		{FD1035B1-E0CA-4685-BA2D-EC698FB9DCC1}.Release.Build.0 = Release|.NET
+		{0F98A671-1A60-446B-8C36-361F5D84248D}.Debug.ActiveCfg = Debug|.NET
+		{0F98A671-1A60-446B-8C36-361F5D84248D}.Debug.Build.0 = Debug|.NET
+		{0F98A671-1A60-446B-8C36-361F5D84248D}.Release.ActiveCfg = Release|.NET
+		{0F98A671-1A60-446B-8C36-361F5D84248D}.Release.Build.0 = Release|.NET
+		{AAC5DA43-8EFE-41A7-93C8-49247AD35A7A}.Debug.ActiveCfg = Debug|.NET
+		{AAC5DA43-8EFE-41A7-93C8-49247AD35A7A}.Debug.Build.0 = Debug|.NET
+		{AAC5DA43-8EFE-41A7-93C8-49247AD35A7A}.Release.ActiveCfg = Release|.NET
+		{AAC5DA43-8EFE-41A7-93C8-49247AD35A7A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
